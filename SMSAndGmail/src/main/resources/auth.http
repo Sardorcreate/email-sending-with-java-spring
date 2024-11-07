@@ -1,0 +1,15 @@
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Marjona",
+  "surname": "Abdusalomova",
+  "login": "gdsgsg",
+  "password": "knadg813",
+  "email": "sar.play3105@gmail.com"
+}
+
+###
+
+GET http://localhost:8080/auth/check/43117
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTk2MzA2MjgsImV4cCI6MTcxOTYzNDIyOCwiaXNzIjoiU2FyZG9yIiwiaWQiOjIsImxvZ2luIjoibWFyam9uYSIsInJvbGUiOiJST0xFX1VTRVIifQ.3WV5KBAhnYGoOhJOrdER4Mr81wiL2el001oXrZ7XNbc
